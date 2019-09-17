@@ -2,12 +2,13 @@ package singlylinkedlist;
 
 /**
  *  Modified from Drozdek, Data Structures and Algorithms in Java
- *
+ *  
  *  Name: Olga Kochepasova
  *  COSC 311  FA19
  *  hw0912
- *  URL:  <your URL>
- * 
+ *  URL: 
+ *  https://github.com/okochepasova/COSC311/blob/master/hw1_kochepasovaolga.java
+ *  
  * This code is a modified version of the base code given in homework 1
  */
 
@@ -18,11 +19,11 @@ public class SinglyLinkedList {
         int   data;
         Node  next;
       
-        public Node () {
-            this (0, null);
+        public Node() {
+            this(0, null);
         }
       
-        public Node (int data) {
+        public Node(int data) {
             this(data, null);
         }
       
@@ -65,36 +66,41 @@ public class SinglyLinkedList {
     }
 
     public void delete(int data) {
-        if (head != null) {
-            Node p = null;
-            Node n = head;
+        if (head == null) return;
 
-            while (n != null) {
-                if (p == null && n.data == data) {
+        // Variables
+        Node p = null;
+        Node n = head;
+
+        // Body
+        while (n != null) {
+            if (n.data > data) {
+                return;
+            }
+            else if (n.data == data) {
+                if (p == null)
                     head = n.next;
-                    return;
-                }
-                else if (n.data == data) {
+                else
                     p.next = n.next;
-                    n.next = null;
-                    return;
-                }
-
-                p = n;
-                n = n.next;
-            } // end while
-        } // end if
-    } // end delete
+                return;
+            }
+            // Next Node
+            p = n;
+            n = n.next;
+        }
+    }
 
 
     public String  toString() {
-        if (head == null) { 
-            return "Empty String" ;
+        if (head == null)
+            return "[]";
+
+        String s = "[";
+        for (Node p = head; p != null; p = p.next) {
+            s += p.data;
+            if (p.next != null) s += ", ";
         }
-        String s = "";
-        for (Node p = head; p != null; p = p.next) 
-            s += p.data +", ";
-        return s;
+        return s+"]";
     }
 
 
