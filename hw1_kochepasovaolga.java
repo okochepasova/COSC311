@@ -68,12 +68,8 @@ public class SinglyLinkedList {
     public void delete(int data) {
         if (head == null) return;
 
-        // Variables
-        Node p = null;
-        Node n = head;
-
         // Body
-        while (n != null) {
+        for (Node p = null, n = head; n != null; p = n, n = n.next) {
             if (n.data > data) {
                 return;
             }
@@ -83,12 +79,9 @@ public class SinglyLinkedList {
                 else
                     p.next = n.next;
                 return;
-            }
-            // Next Node
-            p = n;
-            n = n.next;
-        }
-    }
+            } // end else
+        } // end for
+    } // end delete
 
 
     public String  toString() {
