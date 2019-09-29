@@ -1,0 +1,35 @@
+Olga Kochepasova - E01856393
+COSC 311 - FA19
+Homework 3 - hw0926
+
+
+
+(1)
+
+Stack
+TOS --> 
+											print						
+					read			m1:50	m1:50	m1:50			m1:50
+			main	main	main	main	main	main	main	main
+	_____	_____	_____	_____	_____	_____	_____	_____	_____
+
+	print
+	m1:50	m1:50			print
+	main	main	main	main	main
+	_____	_____	_____	_____	_____	_____
+
+
+
+(2)
+
+Stack
+TOS -->
+						  print:10						  print:11
+					m2:0	m2:0	m2:0			m2:1	m2:1	m2:1
+			main	main	main	main	main	main	main	main
+	_____	_____	_____	_____	_____	_____	_____	_____	_____
+
+
+
+	main
+	_____	_____
