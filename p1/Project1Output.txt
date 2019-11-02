@@ -1,0 +1,139 @@
+Tick#: 0
+	# Customers in service: 1
+	# Customers with completed service: 0
+	# Customers in queue: 0
+	Total wait time: 0
+	Wait time: 0, 0.000000, 0
+
+Tick#: 1
+	# Customers in service: 1
+	# Customers with completed service: 1
+	# Customers in queue: 0
+	Total wait time: 0
+	Wait time: 0, 0.000000, 0
+
+Tick#: 2
+	# Customers in service: 1
+	# Customers with completed service: 4
+	# Customers in queue: 0
+	Total wait time: 0
+	Wait time: 0, 0.000000, 0
+
+Tick#: 3
+	# Customers in service: 4
+	# Customers with completed service: 4
+	# Customers in queue: 2
+	Total wait time: 2
+	Wait time: 0, 0.200000, 1
+
+Tick#: 4
+	# Customers in service: 2
+	# Customers with completed service: 6
+	# Customers in queue: 5
+	Total wait time: 7
+	Wait time: 0, 0.538462, 2
+
+Tick#: 5
+	# Customers in service: 1
+	# Customers with completed service: 9
+	# Customers in queue: 5
+	Total wait time: 12
+	Wait time: 0, 0.800000, 2
+
+Tick#: 6
+	# Customers in service: 1
+	# Customers with completed service: 12
+	# Customers in queue: 3
+	Total wait time: 15
+	Wait time: 0, 0.937500, 2
+
+Tick#: 7
+	# Customers in service: 3
+	# Customers with completed service: 13
+	# Customers in queue: 5
+	Total wait time: 20
+	Wait time: 0, 0.952381, 2
+
+Tick#: 8
+	# Customers in service: 3
+	# Customers with completed service: 14
+	# Customers in queue: 6
+	Total wait time: 26
+	Wait time: 0, 1.130435, 2
+
+Tick#: 9
+	# Customers in service: 0
+	# Customers with completed service: 18
+	# Customers in queue: 6
+	Total wait time: 32
+	Wait time: 0, 1.333333, 3
+
+Tick#: 10
+	# Customers in service: 3
+	# Customers with completed service: 19
+	# Customers in queue: 4
+	Total wait time: 36
+	Wait time: 0, 1.384615, 3
+
+Tick#: 11
+	# Customers in service: 2
+	# Customers with completed service: 21
+	# Customers in queue: 5
+	Total wait time: 41
+	Wait time: 0, 1.464286, 3
+
+Tick#: 12
+	# Customers in service: 1
+	# Customers with completed service: 24
+	# Customers in queue: 4
+	Total wait time: 45
+	Wait time: 0, 1.551724, 3
+
+Tick#: 13
+	# Customers in service: 1
+	# Customers with completed service: 27
+	# Customers in queue: 4
+	Total wait time: 49
+	Wait time: 0, 1.531250, 3
+
+Tick#: 14
+	# Customers in service: 2
+	# Customers with completed service: 29
+	# Customers in queue: 2
+	Total wait time: 51
+	Wait time: 0, 1.545455, 3
+
+Tick#: 15
+	# Customers in service: 2
+	# Customers with completed service: 31
+	# Customers in queue: 2
+	Total wait time: 53
+	Wait time: 0, 1.514286, 3
+
+Tick#: 16
+	# Customers in service: 3
+	# Customers with completed service: 32
+	# Customers in queue: 4
+	Total wait time: 57
+	Wait time: 0, 1.461538, 3
+
+Tick#: 17
+	# Customers in service: 2
+	# Customers with completed service: 34
+	# Customers in queue: 5
+	Total wait time: 62
+	Wait time: 0, 1.512195, 3
+
+Tick#: 18
+	# Customers in service: 1
+	# Customers with completed service: 37
+	# Customers in queue: 4
+	Total wait time: 66
+	Wait time: 0, 1.571429, 3
+
+Tick#: 19
+	# Customers in service: 3
+	# Customers with completed service: 38
+	# Customers in queue: 3
+	Total wait time: 69
+	Wait time: 0, 1.568182, 3
